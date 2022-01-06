@@ -1,6 +1,6 @@
 ## Introduction
 
-This repository contains my weekly paper notes started since 2022-01-06.
+This repository contains [my](https://zxzq.me) personal weekly paper notes started since 2022-01-06.
 
 ## Contents
 
