@@ -1,4 +1,5 @@
 {
+    "title": "Sub-poissonian loading of single atoms in a microscopic dipole trap",
     "tags":[
         "sub-possionian",
         "loading"
@@ -6,5 +7,18 @@
     "progress": 0.5,
     "related_notes": [
         "22-01-06"
-    ]
+    ],
+    "journal_name": "nature",
+    "important_author": [
+        "Schlosser",
+        "Grangier"
+    ],
+    "rating": 3.62,
+    "rating_detail": {
+        "impression": 3.3,
+        "difficulty": 3.5,
+        "influence": 3.8,
+        "innovative": 3.7,
+        "writing": 3.8
+    }
 }
