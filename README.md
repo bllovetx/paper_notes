@@ -9,14 +9,14 @@ This repository contains my weekly paper notes started since 2022-01-06.
   > informations are maintained by a json file with following form currently:
   ```json
   {
-      tags:[]
-          tag1,
-          tag2
+      "tags":[
+          "tag1",
+          "tag2"
       ],
-      progress: 0.1,
-      related_notes: []
-          date1,
-          data2
+      "progress": 0.1,
+      "related_notes": [
+          "date1",
+          "data2"
       ]
   }
   ```
