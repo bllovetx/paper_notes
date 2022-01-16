@@ -23,3 +23,10 @@ This repository contains [my](https://zxzq.me) personal weekly paper notes start
 
 - Notes
   > Weekly notes
+
+## TODO
+
+- [x] host on jekyll
+- [ ] fetch props from json
+- [ ] visialize
+- [ ] double-way relationship
