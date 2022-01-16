@@ -33,3 +33,4 @@ Currently hosted on [https://papernotes.zxzq.me](https://papernotes.zxzq.me)
 - [ ] visialize
 - [ ] double-way relationship
 - [ ] improve theme
+- [ ] add menu

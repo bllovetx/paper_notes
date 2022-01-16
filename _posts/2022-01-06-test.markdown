@@ -18,7 +18,7 @@ header-img: /note_pics/22-01-06-correlation-decrease.png
 
 ## paper list
 
-[Sub-poissonian loading of single atoms in a microscopic dipole trap](/Important_papers/sub-possionian_loading.Schlosser.2001.nature)
+[Sub-poissonian loading of single atoms in a microscopic dipole trap](/Important_papers/sub-possionian_loading.Schlosser.2001.nature/35082512.pdf)
 
 ### abstract
 
