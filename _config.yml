@@ -10,7 +10,7 @@
 
 # Site info
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.zxzq.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://papernotes.zxzq.me" # the base hostname & protocol for your site, e.g. http://example.com
 SEOTitle: 曾许曌秋的paper notes | paper notes of Sorakaru
 description: >- # this means to ignore newlines until next one
   This is paper notes of 曾许曌秋, enjoy!

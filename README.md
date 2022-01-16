@@ -2,6 +2,8 @@
 
 This repository contains [my](https://zxzq.me) personal weekly paper notes started since 2022-01-06.
 
+Currently hosted on [https://papernotes.zxzq.me](https://papernotes.zxzq.me)
+
 ## Contents
 
 - Important_papers
