@@ -34,3 +34,5 @@ Currently hosted on [https://papernotes.zxzq.me](https://papernotes.zxzq.me)
 - [ ] double-way relationship
 - [ ] improve theme
 - [ ] add menu
+- [ ] tag
+- [ ] mobile
