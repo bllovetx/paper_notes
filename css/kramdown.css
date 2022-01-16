@@ -1,0 +1,21 @@
+#note-md blockquote p {
+    color: gray;
+    font-weight: lighter;
+}
+
+#note-md blockquote p::before {
+    content: "";
+    position: relative;
+    border-color: rgb(165, 164, 164);
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(165, 164, 164);
+    width: 0px;
+    height: 10px;
+    left: -10px;
+    top: 0px
+}
+
+p {
+    font-weight:lighter;
+}

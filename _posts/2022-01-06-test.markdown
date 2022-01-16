@@ -13,6 +13,8 @@ header-img: /note_pics/22-01-06-correlation-decrease.png
 # Paper Notes
 
 > 2022-01-06
+> 
+> 曾许曌秋
 
 ## paper list
 
