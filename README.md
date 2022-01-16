@@ -30,3 +30,4 @@ This repository contains [my](https://zxzq.me) personal weekly paper notes start
 - [ ] fetch props from json
 - [ ] visialize
 - [ ] double-way relationship
+- [ ] improve theme
