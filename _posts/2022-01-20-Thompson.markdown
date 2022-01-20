@@ -12,7 +12,7 @@ tags:
     - Addressing
     - error reduced
     - $^{174}Yb$
-header-img: /note_pics/2022-01-20-Er-setup.png
+header-img: /note_pics/22-01-20-addressing-setup-compare.png
 ---
 
 # Paper Notes
