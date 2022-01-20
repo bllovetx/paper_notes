@@ -1,0 +1,89 @@
+---
+layout: post
+date: 2022-01-20
+author: 曾许曌秋
+title: Thompson
+tags:
+    - Thompson
+    - solid-state spins
+    - frequency-domain multiplexing
+    - $Er^{3+}$
+    - AC Stark shift
+    - Addressing
+    - error reduced
+    - $^{174}Yb$
+---
+
+# Paper Notes
+
+> 2022-01-20
+
+## about
+
+This note include two paper from [Thompson Lab](https://sites.google.com/site/thompsonlabq/home?authuser=0), Princeton, coverring neutral atom and quantum defects. Since two paper have no intrinsic connection, following sections will be divided according to paper.
+
+## paper list
+
+[Parallel single-shot measurement and coherent control of solid-state spins below the diffraction limit](/Important_papers/parallel_single-shot_measurement_and_coherent_control_of_solid-state_spins_below_the_diffraction_limit.SongtaoChen=Thompson.2020.science/science.abc7821.pdf)
+
+[Controlling Rydberg excitations using ion core transitions in alkaline earth atom tweezer arrays](/Important_papers/rydberg_excitation_of_alkaline_earth_atom_using_core_transitions.Burgers=Thompson.2021.arxiv/2110.06902.pdf)
+
+## Frequency multiplexing of solid-state spins
+
+### Abstract
+
+This experiment is based on Rare-earth ions (REIs) in solid-state. $Er^{3+}	([Xe] 4f^{12} 6s^2)$, which used in the experiment, is said to **demonstrate long coherent time(exceeding 6 hours) and compatibility with telecom band and silicon photonics**.
+
+![Er setup](/note_pics/2022-01-20-Er-setup.png)
+
+As is shown in above figure, diffraction of microwave cause different $Er^{3+}$ exposed to different intensity. With AC stark shift, the two level system of each ion shift relative to the energy center differently. This ensure the possibility of **frequency-domain multiplexing**
+
+![AC Stark](/note_pics/22-01-20-ac-stark.png)
+
+![ions spectrum](/note_pics/22-01-20-ion-spectrum.png)
+
+Six ions are chosen in the above spectrum. And with magnetic field, two level splits to four level according to spin. By tuning laser frequency and magnetic field, PLE(Photoluminescence excitation, high snr compared to absorption) spectrum shows the process of four level splitting.
+
+![level splitting](/note_pics/22-01-20-level-splitting.png)
+
+Because of different g-factor of ground state and excited state, all six process between the four level distinguishable. Thus by applying $f_A$ and $f_{MWe}$ repeatingly, state will be deterministically initialize at spin down state and vice versa.
+
+![state initialize and readout](/note_pics/22-01-20-state-initialize-and-readout.png)
+
+![high fidelity](/note_pics/22-01-20-high-fidelity.png)
+
+With all these, frequency multiplexed high fidelity initialization and reading-out are realized.
+
+### interesting contents
+
+1. using ac stark to realize FDM(frequency-domain multiplexing)
+2. 2 dimension PLE, which clearly show the energy level splitting of two ions and the application of different g-factor
+3. $Er^{3+}	([Xe] 4f^{12} 6s^2)$, which used in the experiment, is said to **demonstrate long coherent time(exceeding 6 hours) and compatibility with telecom band and silicon photonics**.
+
+### to be read
+
+[quantum guideline for solid-state spin defects](/Important_papers/solid-state_spin_defects_review.Gary_Wolfowicz.2021.nature/2010.16395.pdf)
+
+## Yb Rydberg address using ion core transitions
+
+### abstract
+
+![addressing setup compare](/note_pics/22-01-20-addressing-setup-compare.png)
+
+The paper showed that, by applying light shift to Rydberg state instead of ground state, scattering errors can be significantly reduced.This comes from two aspects.
+
+![error draft](/note_pics/22-01-20-error-draft.jpg)
+
+For the first aspect, as is drafted in above figure, two error will be caused during introduction of light shift. 
+
+Firstly(red), off-resonant excitation will cause non-addressed atom excited to $|r\rangle$, which obviously proportional to $\epsilon_{rot} \propto (\Omega_r/\Delta_{LS})^2$, where$\Delta_{LS} = \Omega_c^2/(4\Delta)$. For this error, applying light shift to ground state and Rydberg state make no difference. 
+
+The second error(blue) arises from decay of the chosen light shift state( $|e\rangle$ or $|r'\rangle$). Since AC stark effect is result of dressed state, light shift indicate composition of the chosen light shift state and thus introduce $\Gamma$ together with light shift. With this picture, we can easily obtain $\epsilon_{sc} \propto \Gamma_{LS} t_g \approx \Gamma \frac{\Omega_c^2}{4\Delta^2} t_g$ Since addressed atom is initallized at $|g\rangle$ of $|g'\rangle$, this error affect little when Rydberg state is shifted compare to that when ground state is shifted.
+
+It should be noted that the first error decrease as control beam intensity increase while the second error increase as control beam intensity increase(decrease when frequency detuning increase). Thus in order to decrease, frequency detuning should be chosen according to control beam intensity. With some simplification, we will find that intensity scaling is improved from $I_c\propto 1/\epsilon^3$ to $I_c \propto 1/\epsilon^2$ as a result of suppressing the second error.
+
+Another aspect arise from having little effect on $|g'\rangle$ state.
+
+### comment
+
+This work with no doubt greatly makes use of and demonstrates the advantage of alkaline earth atom.

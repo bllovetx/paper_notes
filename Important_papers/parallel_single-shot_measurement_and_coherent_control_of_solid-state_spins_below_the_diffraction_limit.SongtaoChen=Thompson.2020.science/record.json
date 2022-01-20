@@ -1,0 +1,27 @@
+{
+    "title": "Parallel single-shot measurement and coherent control of solid-state spins below the diffraction limit",
+    "tags": [
+        "Rare-earth ions",
+        "solid-state spin defects",
+        "Er",
+        "AC stark",
+        "high fidelity"
+    ],
+    "progress": 0.6,
+    "related_notes": [
+        "22-01-20"
+    ],
+    "journal_name": "PRL",
+    "important_author": [
+        "Songtao Chen",
+        "Jeff D. Thompson"
+    ],
+    "rating": 3.84,
+    "rating_detail": {
+        "impression": 4,
+        "difficulty": 3.9,
+        "influence": 3.8,
+        "innovative": 3.9,
+        "writing": 3.6
+    }
+}
