@@ -77,13 +77,13 @@ The paper showed that, by applying light shift to Rydberg state instead of groun
 
 For the first aspect, as is drafted in above figure, two error will be caused during introduction of light shift. 
 
-Firstly(red), off-resonant excitation will cause non-addressed atom excited to $|r\rangle$, which obviously proportional to $\epsilon_{rot} \propto (\Omega_r/\Delta_{LS})^2$, where$\Delta_{LS} = \Omega_c^2/(4\Delta)$. For this error, applying light shift to ground state and Rydberg state make no difference. 
+Firstly(red), off-resonant excitation will cause non-addressed atom excited to $\lvert r\rangle$, which obviously proportional to $\epsilon_{rot} \propto (\Omega_r/\Delta_{LS})^2$, where$\Delta_{LS} = \Omega_c^2/(4\Delta)$. For this error, applying light shift to ground state and Rydberg state make no difference. 
 
-The second error(blue) arises from decay of the chosen light shift state( $|e\rangle$ or $|r'\rangle$). Since AC stark effect is result of dressed state, light shift indicate composition of the chosen light shift state and thus introduce $\Gamma$ together with light shift. With this picture, we can easily obtain $\epsilon_{sc} \propto \Gamma_{LS} t_g \approx \Gamma \frac{\Omega_c^2}{4\Delta^2} t_g$ Since addressed atom is initallized at $|g\rangle$ of $|g'\rangle$, this error affect little when Rydberg state is shifted compare to that when ground state is shifted.
+The second error(blue) arises from decay of the chosen light shift state( $\lvert e\rangle$ or $\lvert r'\rangle$). Since AC stark effect is result of dressed state, light shift indicate composition of the chosen light shift state and thus introduce $\Gamma$ together with light shift. With this picture, we can easily obtain $\epsilon_{sc} \propto \Gamma_{LS} t_g \approx \Gamma \frac{\Omega_c^2}{4\Delta^2} t_g$ Since addressed atom is initallized at $\lvert g\rangle$ of $\lvert g'\rangle$, this error affect little when Rydberg state is shifted compare to that when ground state is shifted.
 
 It should be noted that the first error decrease as control beam intensity increase while the second error increase as control beam intensity increase(decrease when frequency detuning increase). Thus in order to decrease, frequency detuning should be chosen according to control beam intensity. With some simplification, we will find that intensity scaling is improved from $I_c\propto 1/\epsilon^3$ to $I_c \propto 1/\epsilon^2$ as a result of suppressing the second error.
 
-Another aspect arise from having little effect on $|g'\rangle$ state.
+Another aspect arise from having little effect on $\lvert g'\rangle$ state.
 
 ### comment
 
