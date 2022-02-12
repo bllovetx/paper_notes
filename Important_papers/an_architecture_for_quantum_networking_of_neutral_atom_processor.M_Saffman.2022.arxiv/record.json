@@ -1,0 +1,25 @@
+{
+    "title": "An architecture for quantum networking of neutral atom processors",
+    "tags": [
+        "BSM",
+        "entanglement",
+        "cavity",
+        "Rb87"
+    ],
+    "progress": 0.4,
+    "related_notes": [
+        "22-02-12"
+    ],
+    "journal_name": "arxiv",
+    "important_author": [
+        " M. Saffman"
+    ],
+    "rating": 3.1,
+    "rating_detail": {
+        "impression": 3.5,
+        "difficulty": 2.8,
+        "incluence": 2.9,
+        "innovative": 3.0,
+        "writing": 3.3
+    }
+}
